@@ -20,7 +20,8 @@ output:
 linters:
   default: all
   disable:
-    - exhaustruct
+    - exhaustruct # replaced by exhaustruct_v5 in newer golangci-lint; disabling both here
+    - exhaustruct_v5
     - err113
     - forbidigo
     - funcorder

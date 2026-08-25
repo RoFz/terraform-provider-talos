@@ -59,6 +59,7 @@ output "installer_image" {
         - exoscale
         - opennebula
         - scaleway
+        - alibabacloud
 - `sbc` (String) The SBC's (Single Board Copmuters) for which the url are generated.
 
     #### Single Board Computers
